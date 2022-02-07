@@ -11,6 +11,7 @@ import EmpDisplay from './components/EmpDisplay';
 function App() {
   return (<Router>
     <div className="App">
+
     <>
   <Navbar bg="dark" variant="dark">
     <Container>
@@ -30,6 +31,8 @@ function App() {
   <Route path='/add' component={Add} />
   <Route path='/empDisplay' component={EmpDisplay} />
 </div>
+
+      
     </div>
   </Router>
   );

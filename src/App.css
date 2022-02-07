@@ -1,4 +1,5 @@
 
+
 .login-label{
   margin-right: 300px;
 }
@@ -74,4 +75,44 @@ h2{
 
 .btn input:hover{
 background-color: darkgreen;
+
+.form{
+  display: block;
+  border: 1px solid rgb(150, 141, 141);
+  width: 500px;
+  padding: 15px;
+  margin-left: 350px;
+  margin-top: 25px;
+}
+
+input{
+  width: 100%;
+}
+
+.error-message{
+  color: red;
+  font-size: 12px;
+}
+
+.form-header{
+  background-color: rgba(182, 179, 175, 0.548);
+  padding: 20px;
+}
+
+h5{
+  font-weight: bold;
+}
+
+.button{
+  margin-left: 350px;
+}
+
+label{
+  font-weight: bold;
+}
+
+.App{
+  background-color: blue;
+  height: 100vh;
+  width: 50%;
 }
